@@ -9,6 +9,63 @@ body{
     background: linear-gradient(to bottom, #fde8ed, #d484df);
     background-attachment: fixed;
     font-family: sans-serif;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.bolha {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.4);
+  pointer-events: none;
+  animation: subir 5s infinite ease-in;
+}
+
+.bolha:nth-child(1) {
+  width: 40px;
+  height: 40px;
+  left: 10%;
+  animation-duration: 7s;
+  animation-delay: 0s;
+  color: #5dcb80;
+}
+
+.bolha:nth-child(2) {
+  width: 20px;
+  height: 20px;
+  left: 25%;
+  animation-duration: 5s;
+  animation-delay: 1s;
+}
+
+.bolha:nth-child(3) {
+  width: 60px;
+  height: 60px;
+  left: 60%;
+  animation-duration: 9s;
+  animation-delay: 0.5s;
+}
+
+.bolha:nth-child(4) {
+  width: 30px;
+  height: 30px;
+  left: 80%;
+  animation-duration: 6s;
+  animation-delay: 2s;
+}
+
+@keyframes subir {
+  0% {
+    bottom: -100px;
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.6;
+  }
+  100% {
+    bottom: 100vh;
+    opacity: 0;
+  }
 }
 
 .perfil{
