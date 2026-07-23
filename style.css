@@ -54,8 +54,6 @@ body{
 .confira{
     font-family: 'Courier New', Courier, monospace;
     color: #d1076c;
-    display: flex;
-    justify-content: center;
     text-align: center;
     padding: 20px;
 }
