@@ -1,0 +1,4 @@
+user-agent: *
+Disallow: /config/
+
+Sitemap: https://cttlorhan.github.io/Patty_Lacarotes/
