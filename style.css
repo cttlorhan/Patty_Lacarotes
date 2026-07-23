@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background: linear-gradient(to bottom, #fde8ed, #d484df);
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+
+.perfil{
+    padding-top: 2%;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+.bemvindo{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #f54e8c;
+}
+
+.botao-social {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 0 auto 20px;
+}
+
+/*botão do insta e whats*/
+.instagram,
+.whatsapp{
+    text-decoration: none;
+    color: black;
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.instagram{
+    background-color: #8a6006;
+}
+
+.whatsapp{
+    background-color: #5dcb80;
+}
+.confira{
+    font-family: 'Courier New', Courier, monospace;
+    color: #d1076c;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.galeria-grid{
+    margin: 0 auto;
+    display: grid; /* cria colunas */
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    width: 75%;
+    height: 75%;
+
+}
+
+.laco{
+    width: 75%; 
+    height: 75%; 
+    border: 1px solid black;
+    border-radius: 10px;
+    object-fit: cover;
+}
